@@ -1,4 +1,4 @@
-import roleModel from "../models/roleModel.js"
+import roleModel from "../models1/roleModel.js"
 class roleController {
     async createRoles(req, res){
         try{
