@@ -6,4 +6,4 @@ const User = mongoose.Schema({
     role: {type:String, ref:"Role"}
 })
 
-export default mongoose.model("User", User)
+export default mongoose.model("User", User) 
