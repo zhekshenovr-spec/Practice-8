@@ -1,4 +1,4 @@
-import postModel from "../Models/postModel.js"
+import postModel from "../models/postModel.js"
 
 class postController {
     async getAllPosts(req, res){

@@ -1,4 +1,4 @@
-import postModel from "../Models/postModel.js"
+import postModel from "../models/postModel.js"
 
 export default async function postDeletingMiddleware(req, res, next) {
     const userId = req.user?.id

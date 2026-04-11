@@ -1,5 +1,5 @@
-import userModel from "../Models/userModel.js"
-import roleModel from "../Models/roleModel.js"
+import userModel from "../models/userModel.js"
+import roleModel from "../models/roleModel.js"
 import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'
 
