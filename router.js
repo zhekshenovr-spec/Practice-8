@@ -1,10 +1,10 @@
 import { Router } from "express"
-import postController from "./Controllers/postController.js"
-import authController from "./Controllers/authController.js"
-import roleController from "./Controllers/roleController.js"
-import authMiddleware from "./Middlewares/authMiddleware.js"
-import postUpdatingMiddleware from "./Middlewares/postUpdatingMiddleware.js"
-import postDeletingMiddleware from "./Middlewares/postDeletingMiddleware.js"
+import postController from "./controllers1/postController.js"
+import authController from "./controllers1/authController.js"
+import roleController from "./controllers1/roleController.js"
+import authMiddleware from "./middlewares1/authMiddleware.js"
+import postUpdatingMiddleware from "./middlewares1/postUpdatingMiddleware.js"
+import postDeletingMiddleware from "./middlewares1/postDeletingMiddleware.js"
 
 const router = Router()
 
